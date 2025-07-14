@@ -33,8 +33,34 @@ Topado o desafio, encarei o problema de frente. Como o site bloqueia bots comuns
 - Biblioteca `csv`
 - Tkinter (interface futura)
 
+## 📌 Roadmap
+
+Este projeto está em constante evolução. Algumas atualizações futuras planejadas incluem:
+
+- Interface gráfica com Tkinter para facilitar o uso
+- Escolha manual das ações a serem pesquisadas
+- Exportação em outros formatos (Excel, JSON)
+- Agendamento automático da coleta de dados
+
+Fique ligado para novidades!
+
 ## 🧪 Como Usar
 
 1. Instale as dependências:
 ```bash
 pip install selenium webdriver-manager
+```
+2. Execute o script:
+```bash
+python main.py
+```
+3. O arquivo dados_acoes.csv será gerado na mesma pasta.
+
+## 📌 Roadmap
+
+Este projeto está em constante evolução. Algumas atualizações futuras planejadas incluem:
+
+- Interface gráfica com Tkinter para facilitar o uso
+- Escolha manual das ações a serem pesquisadas
+- Exportação em outros formatos (Excel, JSON)
+- Agendamento automático da coleta de dados
