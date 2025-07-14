@@ -24,9 +24,9 @@ for acao in acoes:
 
     try:
         driver.get(url)
-        time.sleep(2)  # Espera 2 segundos pra página carregar (pode ajustar)
+        time.sleep(2)  
 
-        # Pegando o nome da empresa (título principal da ação)
+       
         cotacao = driver.find_element(By.CLASS_NAME, 'value').text
         variacao = driver.find_element(By.CSS_SELECTOR, '._card.pl ._card-body > div > span').text
         pl = driver.find_element(By.CSS_SELECTOR, '._card.val ._card-body > span').text
@@ -61,7 +61,7 @@ for acao in acoes:
 driver.quit()
 
 with open('dados_acoes.csv', 'w', newline='', encoding='utf-8') as arquivo_csv:
-    campos = dados_gerais[0].keys()  # cabeçalhos
+    campos = dados_gerais[0].keys() 
     escritor = csv.DictWriter(arquivo_csv, fieldnames=campos)
     escritor.writeheader()
     escritor.writerows(dados_gerais)
