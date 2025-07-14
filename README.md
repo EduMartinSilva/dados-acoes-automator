@@ -19,11 +19,11 @@ Este projeto é uma automação em Python que coleta dados de ações da bolsa b
 
 ## 💡 Motivação
 
-A ideia desse projeto surgiu de um pedido do meu pai. Ele precisava coletar diversas informações financeiras do site *Investidor10* e organizá-las em uma tabela — tarefa que ele vinha fazendo manualmente, o que consumia bastante tempo.
+A ideia desse projeto surgiu de um pedido do meu pai. Ele precisava coletar diversas informações financeiras do site *Investidor10* e organizá-las em uma tabela, essa tarefa que ele vinha fazendo manualmente, o que consumia bastante tempo.
 
 Ele tentou usar várias inteligências artificiais (como o ChatGPT, Gemini e Claude) pra automatizar o processo, mas nenhuma conseguiu montar a tabela completa com todos os dados que ele precisava. Foi aí que ele me lançou o desafio: *“Então vê se você consegue fazer isso melhor!”*
 
-Topado o desafio, encarei o problema de frente. Como o site bloqueia bots comuns, optei por usar o Selenium para simular um usuário real navegando nas páginas. E deu certo! Consegui extrair todas as informações desejadas e automatizar completamente o processo, entregando uma solução funcional, rápida e personalizada — e, de quebra, fiz meu pai economizar um bom tempo no dia a dia. 🚀
+Topado o desafio, encarei o problema de frente. Como o site bloqueia bots comuns, optei por usar o Selenium para simular um usuário real navegando nas páginas. E deu certo! Consegui extrair todas as informações desejadas e automatizar completamente o processo, entregando uma solução funcional, rápida e personalizada.
 
 ## 🛠️ Tecnologias Utilizadas
 
